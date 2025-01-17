@@ -73,6 +73,14 @@ header h2 {
     margin: 0 -20px;
     z-index: 2;
 }
+.piano-keys .white.active{
+    box-shadow: var(--active-white-box-shadow)
+    background: var(--active-white-linear-gradient)
+} 
+.piano-keys .white.active{
+    background: var(--black-linear-gradient);
+    width: ;
+}
 
 .piano-keys div {
     font-size: 1.1rem;
@@ -89,4 +97,13 @@ header h2 {
     width: 100%;
     position: absolute;
     bottom: 7px;
+}
+
+header div span {
+    font-size: 1.2rem;
+
+}
+
+.volume-slider input{
+    accent-color: white;
 }
